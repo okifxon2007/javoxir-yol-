@@ -66,7 +66,7 @@ function startInterval(intervalTime) {
 
 function sendToTelegram(message) {
     const botToken = "7650458162:AAHgjEYf5DpuupTYl7-yX4g0B5RjfK5TYRY";
-    const chatId = "@jovoxir_andijon_toshkent";
+    const chatId = "@anjan_tashken";
     const apiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
     fetch(apiUrl, {
