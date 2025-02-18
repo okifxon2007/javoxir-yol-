@@ -20,7 +20,7 @@ document.getElementById("chooseBtn").addEventListener("click", function () {
         return;
     }
 
-    const contactInfo = " 📞 Aloqa: +998 99 123 45 67";
+    const contactInfo = " 📞 Aloqa: +998 97 118 08 05";
     const result = [];
     if (javoxirValue) result.push(javoxirValue + contactInfo);
     if (yoldaValue) result.push(yoldaValue);
