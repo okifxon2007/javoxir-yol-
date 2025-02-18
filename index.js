@@ -66,7 +66,7 @@ function startInterval(intervalTime) {
 
 function sendToTelegram(message) {
     const botToken = "7650458162:AAHgjEYf5DpuupTYl7-yX4g0B5RjfK5TYRY";
-    const chatId = "@anjan_tashken";
+    const chatId = "@anjan_tashken"; // Yangi guruh nomi
     const apiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
     fetch(apiUrl, {
@@ -78,3 +78,4 @@ function sendToTelegram(message) {
     .then(data => console.log("✅ Telegramga yuborildi:", data))
     .catch(error => console.error("❌ Xatolik:", error));
 }
+
