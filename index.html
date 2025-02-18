@@ -11,17 +11,15 @@
 <div class="container">
     <h2>Yo'lovchi Tanlash</h2>
 
-    <!-- Javoxir haydovchi -->
     <label for="javoxir">🚖 Javoxir haydovchi</label>
     <select id="javoxir">
         <option value="">malumotni tanlang</option>
-        <option>Javoxirga 1 ta odam kam - Andijondamiz 📍</option>
-        <option>Javoxirga 2 ta odam kam - Andijondamiz 📍</option>
-        <option>Javoxirga 3 ta odam kam - Andijondamiz 📍</option>
-        <option>Javoxirga 4 ta odam kam - Andijondamiz 📍</option>
+        <option>1 ta odam kam - Andijondan toshkentga Pochta olamiz📍</option>
+        <option>2 ta odam kam - Andijondan toshkentga Pochta olamiz📍</option>
+        <option>3 ta odam kam - Andijondan toshkentga Pochta olamiz📍</option>
+        <option>4 ta odam kam - Andijondan toshkentga Pochta olamiz📍</option>
     </select>
 
-    <!-- Yo'ldagi holat -->
     <label for="yolda">🛣 Yo'ldagi holat</label>
     <select id="yolda">
         <option value="">malumotni tanlang</option>
@@ -29,17 +27,27 @@
         <option>Biz Toshkentdan Andijonga yo‘ldamiz ✅</option>
     </select>
 
-    <!-- Toshkent -->
     <label for="toshkent">📍 Toshkent</label>
     <select id="toshkent">
         <option value="">malumotni tanlang</option>
-        <option>1 ta odam kam - Toshkentdamiz 📍</option>
-        <option>2 ta odam kam - Toshkentdamiz 📍</option>
-        <option>3 ta odam kam - Toshkentdamiz 📍</option>
-        <option>4 ta odam kam - Toshkentdamiz 📍</option>
+        <option>1 ta odam kam - Toshkentdan andijonga Pochta olamiz📍</option>
+        <option>2 ta odam kam - Toshkentdan andijonga Pochta olamiz📍</option>
+        <option>3 ta odam kam - Toshkentdan andijonga Pochta olamiz📍</option>
+        <option>4 ta odam kam - Toshkentdan andijonga Pochta olamiz📍</option>
     </select>
 
-    <button id="chooseBtn">Tanlash</button>
+    <label for="interval">⏳ Xabar yuborish oraliq vaqti:</label>
+    <select id="interval">
+        <option value="20000">20second</option>
+        <option value="60000">1 minut</option>
+        <option value="120000">2 minut</option>
+        <option value="300000">5 minut</option>
+        <option value="900000">15 minut</option>
+        <option value="1800000">30 minut</option>
+    </select>
+
+    <button id="chooseBtn">Tanlash</button> <br>
+    <button id="stopBtn">To‘xtatish</button>
 </div>
 
 <script src="index.js"></script>
